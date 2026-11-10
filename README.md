@@ -1,6 +1,6 @@
 # BMP581 barometer driver
 
-This small C driver reads pressure and temperature from a BMP581.
+This lightweight C driver reads pressure and temperature from a Bosch BMP581 barometric pressure sensor using I2C.
 
 ```c
 float pressure;
