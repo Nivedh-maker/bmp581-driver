@@ -11,7 +11,7 @@ bmp581_start();
 bmp581_read(&pressure, &temperature);
 ```
 
-`pressure` is in pascals and `temperature` is in degrees Celsius. The BMP581 I2C address is normally `0x46` or `0x47`.
+pressure is in pascals and temperature is in degrees Celsius. The BMP581 I2C address is normally 0x46 or 0x47.
 
 ## What the code does
 
